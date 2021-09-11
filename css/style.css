@@ -47,3 +47,6 @@ li {
 footer {
     text-align: center;
 }
+a:hover {
+    color: yellow;
+}
