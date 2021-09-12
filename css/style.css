@@ -1,15 +1,17 @@
 * {
-    background-color: lightblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+body {
+    background-color: lightblue;
+}
 header {
     position: fixed;
     top: 0;
+    text-align: right;
     margin: 0 auto;
     width: 100%;
-    height: 100px;
-
+    background-color: salmon;
+    border-bottom: 2px solid black;
 }
 
 h1 {
@@ -19,18 +21,18 @@ ul {
     margin: 20px auto;
     padding-left: 0;
     width: 90%;
-    text-align: center;
 }
 li {
-    display: inline;
+    display: inline-block;
+    width: 100px;
 }
 #image-section {
+    margin: 75px auto 0 auto;
     width: 90%;
-    margin: 0 auto;
     text-align: center;
 }
 #image-section img {
-    margin: 150px auto 0 auto;
+    
     border: 5px solid navy;
     width:600px;
 }
@@ -38,8 +40,14 @@ li {
     margin-top: 0;
 }
 #contact {
+    padding: 5px;
+    width: 30%;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 5px;
     text-align: center;
-
+    line-height: 1.5rem;
+    background-color: cyan;
 }
 #subButton {
     background-color: white;
