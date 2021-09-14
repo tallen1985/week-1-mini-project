@@ -34,14 +34,16 @@ li {
 #image-section img {
     
     border: 5px solid navy;
-    width:600px;
+    width:50%;
+    min-width: 350px;
 }
 #image-section p {
     margin-top: 0;
 }
 #contact {
     padding: 5px;
-    width: 30%;
+    width: 40%;
+    min-width: 300px;
     margin: 0 auto;
     border: 5px solid black;
     border-radius: 5px;
